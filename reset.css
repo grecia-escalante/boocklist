@@ -1,0 +1,60 @@
+/* CSS Reset básico */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /* O cualquier fuente que prefieras */
+    line-height: 1.6; /* Para mayor legibilidad */
+    background-color: #fff; /* Color de fondo predeterminado */
+}
+
+ul, ol {
+    list-style: none; /* Elimina los puntos de las listas */
+}
+
+a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: inherit; /* Hereda el color del texto */
+}
+
+img {
+    max-width: 100%; /* Hace que las imágenes no desborden el contenedor */
+    height: auto; /* Mantiene la relación de aspecto */
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    border: none; /* Elimina el borde por defecto */
+    outline: none; /* Elimina el contorno del foco */
+    background: transparent; /* Elimina el fondo por defecto */
+}
+
+table {
+    border-collapse: collapse; /* Colapsa los bordes de las tablas */
+}
+
+hr {
+    border: none; /* Elimina el borde del hr */
+    border-top: 1px solid #ccc; /* Agrega una línea sutil */
+    margin: 1rem 0; /* Espacio superior e inferior */
+}
+
+fieldset {
+    border: none; /* Elimina el borde del fieldset */
+    padding: 0;
+}
+
+legend {
+    font-weight: bold;
+}
+
+html {
+    scroll-behavior: smooth; /* Desplazamiento suave */
+}
